@@ -1,0 +1,43 @@
+body {
+    background-image: url("bg.webp");
+    opacity: 0.9;
+    background-position: top left;
+    background-repeat: vertical;
+    background-attachment: scroll;
+    margin: 150px ;
+    background-size: cover;
+    text-align: center; 
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  h1 {
+    color: tomato;
+    font-size: 500%;
+    padding: 30px;
+    margin: 10px;
+    
+    font-weight: bold;
+  }
+  #message-el{
+    font-style:italic;
+  }
+p{
+  font-size: 200%;
+}
+
+button {
+    width: 350px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    font-size: 300%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+  }
+
+button:hover {
+    background-color: gray;
+  }
